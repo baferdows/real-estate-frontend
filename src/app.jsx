@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
-import LoginPage from "./pages/LoginPage";
-import RegisterPage from "./pages/RegisterPage";
-import HomePage from "./pages/HomePage";
-import LogoutButton from "./components/LogoutButton";
-import WelcomeMessage from "./components/WelcomeMessage";
-import PropertyInputPage from "./pages/PropertyInputPage";
+import LoginPage from "./pages/LoginPage.jsx";
+import RegisterPage from "./pages/RegisterPage.jsx";
+import HomePage from "./pages/HomePage.jsx";
+import LogoutButton from "./components/LogoutButton.jsx";
+import WelcomeMessage from "./components/WelcomeMessage.jsx";
+import PropertyInputPage from "./pages/PropertyInputPage.jsx";
 
 export default function App() {
   return (
